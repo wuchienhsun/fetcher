@@ -1,0 +1,19 @@
+{
+  "name": "fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js https://www.example.com https://www.google.com"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
